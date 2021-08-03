@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 100vh;
+  main {
+    flex: 2;
+  }
+  > div {
+    flex: 1;
+  }
+}
